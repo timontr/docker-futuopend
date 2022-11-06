@@ -1,0 +1,12 @@
+services:
+  futuopend:
+    image: futuopend
+    container_name: futuopend
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./resource/FutuOpenD.xml:/futuopend/FutuOpenD.xml
+      - ./resource/id_rsa_futuopend:/futuopend/id_rsa_futuopend
+    ports:
+      - 127.0.0.1:11111:11111
+    

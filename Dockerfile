@@ -16,6 +16,4 @@ RUN ln -s /app/${FUTUOPEND_NAME} /futuopend
 
 ENV PATH=/futuopend:${PATH}
 
-COPY FutuOpenD.xml /futuopend/FutuOpenD.xml
-
 CMD ["FutuOpenD"]

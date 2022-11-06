@@ -40,6 +40,7 @@
 		<!-- API协议加密私钥文件路径,不设置则不加密 -->
 		<!-- File path for private key for API protocol enctyption. If not set, it will not be encrypted. -->
 		<!-- <rsa_private_key>~/rsa</rsa_private_key> -->
+		<rsa_private_key>/futuopend/id_rsa_futuopend</rsa_private_key>
 		<!-- 是否接收到价提醒推送，0：不接收，1：接收 -->
 		<!-- Whether to receive the price reminder push. 0: not receive, 1: receive -->
 		<price_reminder_push>1</price_reminder_push>
